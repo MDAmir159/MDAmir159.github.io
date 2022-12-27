@@ -11,31 +11,32 @@ function PricingCard() {
             <div className="card">
                 <h3>- Basic -</h3>
                 <span className="bar"></span>
-                <p className="btc">$ 100</p>
-                <p>- 3 Days -</p>
-                <p>- 3 Pages -</p>
+                <p className="btc">$ 40</p>
+                <p>- 14 Days -</p>
+                <p>- 3/4 Pages -</p>
                 <p>- Featured -</p>
-                <p>- Responsive Design -</p>
+                <p>- User Authetication -</p>
+                <Link to = "/contact" className="btn">PURCHASE NOW</Link>
+            </div>
+            <div className="card">
+                <h3>- Standard -</h3>
+                <span className="bar"></span>
+                <p className="btc">$ 200</p>
+                <p>- 30 Days -</p>
+                <p>- 7/8 Pages -</p>
+                <p>- Featured -</p>
+                <p>- User Authorization and Authetication -</p>
                 <Link to = "/contact" className="btn">PURCHASE NOW</Link>
             </div>
             <div className="card">
                 <h3>- Premium -</h3>
                 <span className="bar"></span>
-                <p className="btc">$ 200</p>
-                <p>- 2 Days -</p>
-                <p>- 5 Pages -</p>
+                <p className="btc">$ 500</p>
+                <p>- 90 Days -</p>
+                <p>- 12+ Pages -</p>
                 <p>- Featured -</p>
-                <p>- Responsive Design -</p>
-                <Link to = "/contact" className="btn">PURCHASE NOW</Link>
-            </div>
-            <div className="card">
-                <h3>- Business -</h3>
-                <span className="bar"></span>
-                <p className="btc">$ 300</p>
-                <p>- 5 Days -</p>
-                <p>- 8 Pages -</p>
-                <p>- Featured -</p>
-                <p>- Responsive Design -</p>
+                <p>- User Authorization and Authetication -</p>
+                <p>- Admin dashboard available -</p>
                 <Link to = "/contact" className="btn">PURCHASE NOW</Link>
             </div>
         </div>

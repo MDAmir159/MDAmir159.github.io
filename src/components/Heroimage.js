@@ -11,8 +11,8 @@ function Heroimage() {
             <img className="into-img" src={IntoImg} alt="IntroImg" />
         </div>
         <div className="content">
-            <p>HI, I'M A FREELANCER</p>
-            <h1>React Developer</h1>
+            <p>HI, I'M A PROFESSIONAL</p>
+            <h1>NodeJs Developer</h1>
             <div>
                 <Link to="/project" className = "btn">Projects</Link>
                 <Link to="/contact" className = "btn-light">Contact</Link>

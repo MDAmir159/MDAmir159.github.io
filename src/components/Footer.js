@@ -1,7 +1,7 @@
 import './FooterStyle.css'
 
 import React from 'react'
-import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaGithub } from 'react-icons/fa'
 import { contactDetails } from '../assets/contactInfo'
 
 function Footer() {
@@ -30,26 +30,30 @@ function Footer() {
                 </div>
             </div>
             <div className = "right">
-                <h4>About the company</h4>
-                <p>This is MD Amirul Islam. Undergraduate 4th year in Computer Science and Engineering, Rajshahi University 
-                    of Engineering and Technology
-                </p>
+                <h4>About me</h4>
+                <p>{contactDetails.about}</p>
                 <div className = "social">
-                    <FaFacebook size={30} 
-                        style={{color :"#fff",
-                        marginRight: "1rem"
-                    }}                    
-                    />
-                    <FaTwitter size={30} 
-                        style={{color :"#fff",
-                        marginRight: "1rem"
-                    }}                    
-                    />
-                    <FaLinkedin size={30} 
-                        style={{color :"#fff",
-                        marginRight: "1rem"
-                    }}                    
-                    />
+                    <a href= {contactDetails.facebook}>
+                        <FaFacebook size={30} 
+                            style={{color :"#fff",
+                            marginRight: "1rem"
+                        }}                    
+                        />
+                    </a>
+                    <a href= {contactDetails.github}>
+                        <FaGithub size={30} 
+                            style={{color :"#fff",
+                            marginRight: "1rem"
+                        }}                    
+                        />
+                    </a>
+                    <a href= {contactDetails.linkedIn}>
+                        <FaLinkedin size={30} 
+                            style={{color :"#fff",
+                            marginRight: "1rem"
+                        }}                    
+                        />
+                    </a>
                 </div>
 
             </div>
